@@ -1,10 +1,10 @@
-body {background-image: url(Gallary/Katt.jpg); background-size:cover;}
-p {color: white;}
-pre {color: white;}
+body {background-image: url(Gallary/Ka.jpg); background-size:cover;}
+p {color: rgb(255, 255, 255);}
+pre {color: rgb(255, 255, 255);}
 b {color: indigo;}
-h1 {color: white;}
-select {color: white;}
-form {color: white;}
+h1 {color: rgb(255, 255, 255);}
+select {color: rgb(255, 255, 255);}
+form {color: rgb(255, 255, 255);}
 
 /*body {background-image:linear-gradient(rgb(255, 0, 60), rgb(255, 42, 0));}*/
 
