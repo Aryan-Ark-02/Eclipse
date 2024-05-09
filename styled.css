@@ -1,4 +1,4 @@
-body {background-image: url(Gallary/Ka.jpg); background-size:cover;}
+body {background-image: url(Gallary/Katt.jpg); background-size:cover;}
 p {color: rgb(255, 255, 255);}
 pre {color: rgb(5, 173, 5);}
 b {color: rgb(79, 16, 188);}
@@ -7,4 +7,6 @@ select {color: rgb(5, 173, 5);}
 form {color: rgb(5, 173, 5);}
 * {font-family:Arial, Helvetica, sans-serif;}
 /*body {background-image:linear-gradient(rgb(255, 0, 60), rgb(255, 42, 0));}*/
-
+#tp{
+    height: 1000px;
+}
