@@ -1,0 +1,15 @@
+*{color:white ;padding: 0px; margin: 0px;}
+*{margin: 0px; padding: 0px;}
+.div1 {height: 100px;width: 100px;background-color:crimson;border: 2px solid rgb(255, 0, 0);text-align: center;border-radius: 50%;margin-left: 20px;}
+#board {height: 425px;width: 150px;background-color: rgba(0, 0, 0, 0.766);margin-top: 0px;margin-left: 100px;}
+#div1{margin-top: 30px}
+#div2 {background-color: yellow;border: 2px solid gold;margin-top: 30px}
+#div3 {background-color: greenyellow;border: 2px solid green;margin-top: 30px}
+#em{height: 1px;}
+#top{
+    background-color:#0f1111;
+    height: 60px;
+}
+#buton{background-color: #f08804}
+#logo {color: #f08804;font-size: 25px;}
+a{margin-right: 200px;text-decoration: none;}
