@@ -16,3 +16,4 @@ border-color: rgb(255, 255, 255);
 background-color: rgba(0, 0, 0, 0);}
 .Log {color:rgba(4, 0, 255, 0.768);}
 .content {color:white; font-family:cursive;}
+button{border-width: 0px;background-image:linear-gradient(rgba(0, 94, 255, 0.792), rgba(255, 251, 0, 0.814));border-width:5px;border-color:black;}
