@@ -13,3 +13,10 @@
 #buton{background-color: #f08804}
 #logo {color: #f08804;font-size: 25px;}
 a{margin-right: 200px;text-decoration: none;}
+#foot{
+    background-color:rgba(19,26,34,255);
+    height: 100PX;
+    width: 100vw;
+    position:fixed;
+    bottom: 0px;
+}
