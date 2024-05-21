@@ -1,4 +1,4 @@
-body {background-image: url(Gallary/AA.jpg);background-size: cover;}
+body {background-image: url(Gallary/A.jpg);background-size: cover;}
 p {text-align: center;}
 b{color: white;}
 pre {text-align: center;}
@@ -17,3 +17,5 @@ background-color: rgba(0, 0, 0, 0);}
 .Log {color:rgba(4, 0, 255, 0.768);}
 .content {color:white; font-family:cursive;}
 button{border-width: 0px;background-image:linear-gradient(rgba(0, 94, 255, 0.792), rgba(255, 251, 0, 0.814));border-width:5px;border-color:black;}
+.con{color: aliceblue; text-decoration: none;}
+#submit{margin: 10px;}
