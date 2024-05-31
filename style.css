@@ -24,3 +24,7 @@ button{
     height:auto;
     width: 30%;
 }
+#img_3{display: inline-block; width: 100%; bottom: 70px;padding-bottom: 100px; }
+#lis{width: 60%; height: auto;display: inline-block;}
+.o3{width: 10%; height: auto;display: inline-block;}
+#hom{height: 18px; width: 18px; margin-right: 5px;}
