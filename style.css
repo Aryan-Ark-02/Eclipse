@@ -1,5 +1,5 @@
 /*body {background-image: url(Gallary/A.jpg);background-size: cover;}*/
-body {background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,38,38,0.95) 50%, rgba(255,177,67,0.95) 100%);}
+/*body {background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,38,38,0.95) 50%, rgba(255,177,67,0.95) 100%);}*/
 p, pre, header, h1, h3, button {text-align: center;}
 a{text-decoration: none;}
 button{background-color:rgba(255, 255, 255, 0.75) ;}
@@ -15,16 +15,32 @@ button{
 #submit{margin: 10px;}
 #slider{overflow-x:auto;} 
 #par{position: relative;}
-#img_2{
-    opacity:0.80;
-    z-index:-1;
-    position:absolute;
-    top: 135%; 
-    left:30%;
-    height:auto;
-    width: 30%;
-}
-#img_3{display: inline-block; width: 100%; bottom: 70px;padding-bottom: 100px; }
+#img_3{display: inline-block; width: 100%; bottom: 70px;padding-bottom: 100px;}
 #lis{width: 60%; height: auto;display: inline-block;}
 .o3{width: 10%; height: auto;display: inline-block;}
 #hom{height: 18px; width: 18px; margin-right: 5px;}
+body {background-image: url(Gallary/Crap.webp);}
+body {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,38,38,0.95) 50%, rgb(255, 217, 0) 100%);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite
+}
+@keyframes example {
+  0%   {background: radial-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,38,38,0.95) 50%, rgb(255, 217, 0) 100%);}
+  50% {background: radial-gradient(rgb(0, 255, 255) 0%, rgb(255, 0, 255) 50%, rgb(255, 255, 0) 100%);}
+}
+#img_2{
+  opacity:0.80;
+  z-index:-1;
+  position:absolute;
+  top: 135%; 
+  left:30%;
+  height:auto;
+  width: 30%;
+  animation-name: witch;animation-duration: 7s;animation-iteration-count:infinite; animation-direction: alternate;animation-delay:2s;
+}
+@keyframes witch {
+  from {transform: 600px;}
+  to {top: 1300px;}
+}
